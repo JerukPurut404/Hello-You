@@ -668,10 +668,9 @@ def menu():
 	|             Hallo en welkom naar nieuwkomer in hyrule              | 
 --+--------------------------------------------------------------------+--
 	'                                                                    '    ''') 
-	print("1. Nieuwe file")
-	print("2. Open save file")
-	print("3. Doel van het spel")
-	print("4. Game exit")
+	print("1. Start Game")
+	print("2. Doel van het spel")
+	print("3. Game exit")
 	option = input("> ")
 	if option == "1":
 		global naam 
@@ -679,8 +678,6 @@ def menu():
 		end_database()
 		option_start()
 	elif option == "2":
-		pass
-	elif option == "3":
 		os.system("cls")
 		print("\nHet doel van de game is dat je een huis en werk hebt in de gekozen dorp")
 		print("\nHet doel is om een huis te hebben en te overleven")
@@ -696,7 +693,7 @@ def menu():
 		else:
 			os.system("cls")
 			menu()
-	elif option == "4":
+	elif option == "3":
 		os.system("cls")
 		exit()
 	else:
