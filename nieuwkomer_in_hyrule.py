@@ -104,8 +104,8 @@ def option_start():
 		sleep(5)
 		os.system("cls")
 		option_dorp()
-	elif option == "0":
-		menu()
+	#elif option == "0":
+		#menu()
 	else:
 		os.system("cls")
 		option_start()
@@ -147,8 +147,8 @@ def option_dorp():
 		sleep(5)
 		os.system("cls")
 		dorp_lurelinviliage()
-	elif option == "0":
-		menu()
+	#elif option == "0":
+		#menu()
 	else:
 		os.system("cls") 
 		option_dorp()
@@ -192,8 +192,8 @@ def dorp_hateno():
 		sleep(5)
 		os.system("cls")
 		enemy_incoming_zp()
-	elif option == "0":
-		menu()
+	#elif option == "0":
+		#menu()
 	else:
 		os.system("cls")
 		dorp_hateno()
@@ -222,8 +222,8 @@ def enemy_incoming_high_ground():
 		os.system("cls")
 		end_database()
 		game_over("Bad ending", "Jij hebt gekozen voor Schreeuwen maar dat helpt niet.")
-	elif option == "0":
-		menu()
+	#elif option == "0":
+		#menu()
 	else:
 		os.system("cls")
 		enemy_incoming_high_ground()
@@ -252,8 +252,8 @@ def enemy_incoming_fp():
 		os.system("cls")
 		end_database()
 		game_over("Bad ending","Jij hebt gekozen voor Schreeuwen maar dat helpt niet.")
-	elif option == "0":
-		menu()
+	#elif option == "0":
+		#menu()
 	else:
 		os.system("cls")
 		enemy_incoming_fp()
@@ -682,7 +682,7 @@ def menu():
 		print("\nHet doel van de game is dat je een huis en werk hebt in de gekozen dorp")
 		print("\nHet doel is om een huis te hebben en te overleven")
 		print("\nJij zal tussen 3 wapens en 3 dorpen moeten kiezen.")
-		print("\nAls je wilt uit van het spel druk op elke moment 0")
+		#print("\nAls je wilt uit van het spel druk op elke moment 0")
 		question = input("\nWil je terug naar de menu? J of N")
 		if question in answer_yes:
 			os.system("cls")
