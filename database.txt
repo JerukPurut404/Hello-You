@@ -1,0 +1,7 @@
+Eugene
+['High Ground']
+['Boko-Knots', 1]
+['Hateno']
+[200]
+['Bad ending']
+['Jij hebt gekozen voor Schreeuwen maar dat helpt niet.']
