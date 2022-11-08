@@ -433,7 +433,7 @@ def dorp_gerudotown():
 		option_work_buiten_gerudotown()
 	elif option in answer_B:
 		rupee2 = int(rupee[0])
-		if rupee2 > 200:
+		if rupee > 200:
 			os.system("cls")
 			option_huis()
 		else:
@@ -461,6 +461,8 @@ def option_enter_town():
 		os.system("cls")
 		option_asiel()
 	elif option in answer_B:
+		global rupee
+		rupee2 = int(rupee[0])
 		if rupee2 > 200:
 			os.system("cls")
 			option_huis()
